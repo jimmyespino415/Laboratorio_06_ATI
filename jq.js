@@ -5,7 +5,7 @@ $(document).ready(function() {
 $(document).ajaxError(function(e, jqXHR, settings, exception) {
 	switch (jqXHR.status) {
 		case 0:
-			alert("404 Page Not Found");
+			alert("404 Page Not Found, No se encontro nada");
 	        break;
 	    case 200:
 	        alert("200 OK! Todo Excelente");
