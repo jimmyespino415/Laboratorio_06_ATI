@@ -17,7 +17,7 @@ $(document).ajaxError(function(e, jqXHR, settings, exception) {
 	        alert("404 Page Not Found");
 	        break;
 	    case 500:
-	    	alert("500 Internal Server Error");
+	    	alert("500 Internal Server Error, error interno");
 	        break;
 	    default:
 	            alert("Un error ha ocurrido: " + jqXHR.status);
